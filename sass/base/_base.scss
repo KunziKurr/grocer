@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 80.5%;
+}
+
+body {
+    font-family: Nunito-Regular;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-black;
+    padding: 0rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+// * width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f5e3e2;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #1b3e3f;
+    border-radius: 1rem;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #1b3e3f;
+}

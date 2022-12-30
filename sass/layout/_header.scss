@@ -1,0 +1,70 @@
+.header {
+    &_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 1.2rem;
+    }
+}
+
+.seller_tip {
+    &_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        // width: auto;
+        &_tip {
+            background-color: $color_theme;
+            width: 45%;
+            height: 6rem;
+            border-radius: 1rem;
+            padding: 0.7rem 0.7rem;
+            display: flex;
+            align-items: center;
+            font-family: Nunito-Bold;
+        }
+    }
+}
+
+// DEALS
+.deals {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 100%;
+    height: 12rem;
+    &_wrapper {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        margin: 0 auto;
+        height: inherit;
+        justify-content: center;
+        &_deal {
+            background-color: #f2f6e0;
+            width: 92%;
+            border-radius: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            &_type {
+                font-size: 0.8rem;
+            }
+            &_desc {
+                width: 40%;
+                margin: 0.6rem 0rem 0.8rem 0rem;
+                font-family: 'Nunito-Bold';
+                font-size: 1.2rem;
+            }
+            &_btn {
+                padding: 0.8rem 1.6rem;
+                // margin-top: -.2rem;
+                border-radius: 3rem;
+                border: none;
+                background-color: #10365b;
+                color: $color_theme;
+                font-family: 'Nunito-Bold';
+            }
+        }
+    }
+}
