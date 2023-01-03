@@ -1,5 +1,6 @@
 import React from "react";
 import Categories from "./categories";
+import Feeder from "./_feed";
 
 const Feed = () =>{
     return (
@@ -7,7 +8,7 @@ const Feed = () =>{
             <Categories />
             <div className="feed">
                 <div className="feed_wrapper">
-                    feed
+                    <Feeder />
                 </div>
          </div>
         </>

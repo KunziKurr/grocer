@@ -59,6 +59,15 @@ const Categories = () =>{
                                 Avocado
                             </p>
                         </div>
+                        <div className="categories_wrapper_list_item">
+                            <div className="categories_wrapper_list_item_svg_cont">
+                            {iconPack.avocado}
+
+                            </div>
+                            <p className="categories_wrapper_list_item_name">
+                                Avocado
+                            </p>
+                        </div>
 
                     </div>
 

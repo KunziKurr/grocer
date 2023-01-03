@@ -26,16 +26,20 @@
                 &_svg_cont {
                     height: 6.4rem;
                     width: 6.6rem;
-                    background-color: #ddf5e9;
+                    background-color: #f7f7f7;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     border-radius: 1.4rem;
                     & svg {
-                        width: 5.5rem;
-                        height: 5.5rem;
+                        width: 5.15rem;
+                        height: 5.15rem;
                         margin-top: -0.5rem;
                     }
+                }
+                &_name {
+                    font-family: 'Nunito-Bold';
+                    font-size: 1.1rem;
                 }
             }
         }
